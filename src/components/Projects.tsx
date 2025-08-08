@@ -20,6 +20,7 @@ const Projects = () => {
     description: 'Interactive web app for visualizing deep learning architectures with real-time training animations.',
     category: 'software',
     tags: ['React', 'D3.js', 'TensorFlow', 'WebGL'],
+    image: '/lovable-uploads/79911f12-3d0b-4919-bc0b-94005128ea4f.png',
     status: 'completed'
   }, {
     id: '2',
@@ -102,7 +103,7 @@ const Projects = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {filteredProjects.map(project => <Card key={project.id} className="p-6 card-glow bg-card/50 backdrop-blur-sm hover:card-glow hover:scale-105 transition-all duration-300 group">
               <div className="w-full h-48 bg-muted/20 border border-border rounded-md mb-4 flex items-center justify-center overflow-hidden">
-                <span className="text-muted-foreground font-mono text-sm">Project Image</span>
+                {project.image ? <img src={project.image} alt={project.title} className="w-full h-full object-cover" /> : <span className="text-muted-foreground font-mono text-sm">Project Image</span>}
               </div>
               <div className="mb-4">
                 <div className="flex justify-between items-start mb-2">
