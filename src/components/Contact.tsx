@@ -1,20 +1,28 @@
 import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-
 const Contact = () => {
-  const contactMethods = [
-    { label: 'Email', value: 'weilyupku@gmail.com', command: 'mailto:weilyupku@gmail.com' },
-    { label: 'GitHub', value: '@coolhacker', command: 'https://github.com/coolhacker' },
-    { label: 'LinkedIn', value: '/in/coolhacker', command: 'https://linkedin.com/in/coolhacker' },
-    { label: 'Twitter', value: '@hackercool', command: 'https://twitter.com/hackercool' }
-  ];
-
-  return (
-    <section className="py-20 px-6" id="contact">
+  const contactMethods = [{
+    label: 'Email',
+    value: 'weilyupku@gmail.com',
+    command: 'mailto:weilyupku@gmail.com'
+  }, {
+    label: 'GitHub',
+    value: '@coolhacker',
+    command: 'https://github.com/coolhacker'
+  }, {
+    label: 'LinkedIn',
+    value: '/in/coolhacker',
+    command: 'https://linkedin.com/in/coolhacker'
+  }, {
+    label: 'Twitter',
+    value: '@hackercool',
+    command: 'https://twitter.com/hackercool'
+  }];
+  return <section className="py-20 px-6" id="contact">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-cyber font-bold mb-4 text-glow">
-            <span className="text-accent">$</span> Contact
+            <span className="text-accent">></span> connect --secure
           </h2>
           <div className="w-20 h-px bg-gradient-cyber mx-auto mb-8"></div>
           <p className="text-muted-foreground font-mono">
@@ -49,10 +57,7 @@ const Contact = () => {
               </div>
             </div>
 
-            <Button 
-              className="mt-6 w-full bg-primary text-primary-foreground hover:bg-primary-glow font-mono border-glow"
-              onClick={() => window.open('mailto:weilyupku@gmail.com')}
-            >
+            <Button className="mt-6 w-full bg-primary text-primary-foreground hover:bg-primary-glow font-mono border-glow" onClick={() => window.open('mailto:weilyupku@gmail.com')}>
               $ send_message.sh
             </Button>
           </Card>
@@ -63,19 +68,13 @@ const Contact = () => {
             </h3>
             
             <div className="space-y-4">
-              {contactMethods.map((method) => (
-                <div 
-                  key={method.label}
-                  className="flex justify-between items-center p-3 bg-muted/20 rounded border border-border hover:border-primary transition-colors cursor-pointer"
-                  onClick={() => window.open(method.command)}
-                >
+              {contactMethods.map(method => <div key={method.label} className="flex justify-between items-center p-3 bg-muted/20 rounded border border-border hover:border-primary transition-colors cursor-pointer" onClick={() => window.open(method.command)}>
                   <div className="font-mono">
                     <span className="text-accent">{method.label}:</span>
                     <span className="text-foreground ml-2">{method.value}</span>
                   </div>
                   <span className="text-muted-foreground text-xs">→</span>
-                </div>
-              ))}
+                </div>)}
             </div>
 
             <div className="mt-6 p-4 bg-terminal-bg border border-border rounded font-mono text-xs">
@@ -98,8 +97,6 @@ const Contact = () => {
           </p>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Contact;
