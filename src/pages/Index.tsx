@@ -17,9 +17,9 @@ const Index = () => {
         </div>
         <AboutMe />
         <About />
+        <Projects />
         <Nirva />
         <NirvaApp />
-        <Projects />
         <Contact />
       </main>
     </div>
