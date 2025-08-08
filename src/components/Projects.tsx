@@ -51,6 +51,7 @@ const Projects = () => {
     description: 'Large-scale programmable LED installation for interactive art exhibitions.',
     category: 'hardware',
     tags: ['Arduino', 'FastLED', 'PCB Design', 'C++'],
+    image: '/lovable-uploads/02c6eeb3-50ef-4910-94c2-d6721db0fb3d.png',
     status: 'completed'
   }, {
     id: '6',
