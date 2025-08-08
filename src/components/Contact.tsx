@@ -22,7 +22,7 @@ const Contact = () => {
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-cyber font-bold mb-4 text-glow">
-            <span className="text-accent">></span> connect --secure
+            <span className="text-accent">{'>'}</span> Contact
           </h2>
           <div className="w-20 h-px bg-gradient-cyber mx-auto mb-8"></div>
           <p className="text-muted-foreground font-mono">
