@@ -65,7 +65,7 @@ const About = () => {
               </div>
 
               <div className="font-mono text-sm text-secondary mt-8">
-                <span className="text-primary">&#8250;</span> Status: Creating the future, one project at a time
+                <span className="text-primary">&#8250;</span> Now, I am building something new.
               </div>
             </div>
           </div>
