@@ -31,7 +31,7 @@ const Projects = () => {
     status: 'in-progress'
   }, {
     id: '3',
-    title: 'Generative Music Machine',
+    title: 'fashion design',
     description: 'AI-powered installation that creates ambient soundscapes based on environmental data.',
     category: 'art',
     tags: ['Python', 'Max/MSP', 'Machine Learning', 'Audio'],
@@ -52,7 +52,7 @@ const Projects = () => {
     status: 'completed'
   }, {
     id: '6',
-    title: 'Digital Glitch Art',
+    title: 'poetry',
     description: 'Algorithmic art series exploring data corruption as aesthetic medium.',
     category: 'art',
     tags: ['Processing', 'Glitch Art', 'Digital Media', 'Algorithms'],
@@ -78,6 +78,13 @@ const Projects = () => {
     category: 'hardware',
     tags: ['ARM', 'Custom Silicon', 'Thermal Design', 'PCB'],
     status: 'in-progress'
+  }, {
+    id: '10',
+    title: 'short films',
+    description: 'Creative storytelling through visual narratives exploring human emotions and digital experiences.',
+    category: 'art',
+    tags: ['Cinematography', 'Editing', 'Sound Design', 'Storytelling'],
+    status: 'completed'
   }];
   const filteredProjects = activeCategory === 'all' ? projects : projects.filter(project => project.category === activeCategory);
   const getStatusColor = (status: Project['status']) => {
