@@ -20,25 +20,8 @@ const Hero = () => {
   }, []);
 
   return (
-    <>
-      {/* AR Glasses Overlay */}
-      <div className="ar-glasses-overlay">
-        <div className="glasses-frame">
-          <div className="glasses-right-lens"></div>
-          <div className="glasses-bridge"></div>
-          <div className="glasses-temple-left"></div>
-          <div className="glasses-temple-right"></div>
-        </div>
-        
-        {/* HUD Elements */}
-        <div className="hud-element hud-top-left">STATUS: ONLINE</div>
-        <div className="hud-element hud-top-right">AR MODE: ACTIVE</div>
-        <div className="hud-element hud-bottom-left">LENS: VIRTUAL</div>
-        <div className="hud-element hud-bottom-right">CONNECTION: STABLE</div>
-      </div>
-
-      <section className="min-h-screen flex items-center justify-center relative scan-line">
-        <div className="absolute inset-0 matrix-bg"></div>
+    <section className="min-h-screen flex items-center justify-center relative scan-line">
+      <div className="absolute inset-0 matrix-bg"></div>
       
       <div className="text-center z-10 max-w-4xl mx-auto px-6">
         <div className="mb-8">
@@ -74,16 +57,15 @@ const Hero = () => {
         <div className="absolute top-1/3 right-8 w-1.5 h-1.5 bg-accent rounded-full animate-pulse opacity-50"></div>
       </div>
 
-        {/* Terminal prompt at bottom */}
-        <div className="absolute bottom-8 left-8 font-mono text-sm text-muted-foreground">
-          <span className="text-primary">user@matrix</span>
-          <span>:</span>
-          <span className="text-secondary">~</span>
-          <span>$ </span>
-          <span className="animate-pulse">_</span>
-        </div>
-      </section>
-    </>
+      {/* Terminal prompt at bottom */}
+      <div className="absolute bottom-8 left-8 font-mono text-sm text-muted-foreground">
+        <span className="text-primary">user@matrix</span>
+        <span>:</span>
+        <span className="text-secondary">~</span>
+        <span>$ </span>
+        <span className="animate-pulse">_</span>
+      </div>
+    </section>
   );
 };
 
