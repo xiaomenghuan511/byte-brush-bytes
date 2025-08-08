@@ -66,6 +66,7 @@ const Projects = () => {
     description: 'High-performance distributed system for processing large-scale data workloads across multiple nodes.',
     category: 'software',
     tags: ['Go', 'Kubernetes', 'Microservices', 'Docker'],
+    image: '/lovable-uploads/276bf3be-a4d7-43fa-a607-48114688f4bd.png',
     status: 'completed'
   }, {
     id: '10',
