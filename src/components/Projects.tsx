@@ -42,6 +42,7 @@ const Projects = () => {
     description: 'Real-time system monitoring tool with a futuristic terminal interface.',
     category: 'software',
     tags: ['Rust', 'TUI', 'System Programming', 'WebAssembly'],
+    image: '/lovable-uploads/bb049d97-fb52-45d7-bbe6-121bb4d16001.png',
     status: 'completed'
   }, {
     id: '5',
