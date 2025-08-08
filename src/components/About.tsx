@@ -5,7 +5,7 @@ const About = () => {
     items: ['AR Glasses', 'Industrial Design', 'Electronic Design', 'Fast Prototype', '3D Printing', 'Supply Chain']
   }, {
     category: 'Software',
-    items: ['React', 'Node.js', 'Python', 'Rust', 'Docker', 'Machine Learning']
+    items: ['OS', 'SDK', 'AR Application', 'Scene Understanding', 'Computer Vision', 'Contextual AI']
   }, {
     category: 'Art & Design',
     items: ['film', 'fashion design', 'poetry', 'visual arts']
