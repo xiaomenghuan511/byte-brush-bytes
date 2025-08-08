@@ -76,7 +76,7 @@ const Nirva = () => {
           <div className="space-y-8">
             {appFeatures.map((feature, index) => (
               <div key={index} className="space-y-3">
-                <h3 className="text-2xl font-cyber font-bold text-foreground">
+                <h3 className="text-xl font-cyber text-foreground/90 mb-4">
                   {feature.title}
                 </h3>
                 <p className="text-foreground/70 leading-relaxed">
