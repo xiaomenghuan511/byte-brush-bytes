@@ -2,7 +2,7 @@ import { Card } from '@/components/ui/card';
 const About = () => {
   const skills = [{
     category: 'Hardware',
-    items: ['Arduino', 'Raspberry Pi', 'PCB Design', 'IoT', '3D Printing', 'Embedded Systems']
+    items: ['AR Glasses', 'Industrial Design', 'Electronic Design', 'Fast Prototype', '3D Printing', 'Supply Chain']
   }, {
     category: 'Software',
     items: ['React', 'Node.js', 'Python', 'Rust', 'Docker', 'Machine Learning']
