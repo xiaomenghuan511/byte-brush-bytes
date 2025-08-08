@@ -195,6 +195,32 @@
   100% { transform: translateY(100vh); }
 }
 
+@keyframes glasses-intro {
+  0% {
+    transform: translate(-50%, -50%) scale(0.8);
+    opacity: 1;
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.5);
+    opacity: 0.9;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(8);
+    opacity: 0;
+  }
+}
+
+@keyframes lens-frame-in {
+  0% {
+    opacity: 0;
+    transform: scale(8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
 .animate-glitch {
   animation: glitch 0.3s ease-in-out infinite;
 }
@@ -204,6 +230,45 @@
   border-right: 2px solid hsl(var(--primary));
   white-space: nowrap;
   animation: typing 3s steps(30) 1s forwards, blink 0.75s step-end infinite;
+}
+
+.glasses-overlay {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 80vw;
+  height: auto;
+  pointer-events: none;
+  z-index: 9999;
+  animation: glasses-intro 3s ease-in-out forwards;
+}
+
+.lens-frame {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 10000;
+  opacity: 0;
+  animation: lens-frame-in 1s ease-out 3s forwards;
+}
+
+.lens-frame::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90vw;
+  height: 90vh;
+  border: 6px solid hsl(var(--secondary));
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  box-shadow: 
+    inset 0 0 0 2px hsl(var(--secondary) / 0.3),
+    0 0 30px hsl(var(--secondary) / 0.4),
+    inset 0 0 50px hsl(var(--secondary) / 0.1);
 }
 
 .scan-line {
