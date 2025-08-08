@@ -133,13 +133,7 @@ const Projects = () => {
                 </p>
               </div>
 
-              <div className="flex flex-wrap gap-2 mb-4">
-                {project.tags.map(tag => <Badge key={tag} variant="secondary" className="text-xs font-mono bg-muted/30 hover:bg-muted/50 transition-colors">
-                    {tag}
-                  </Badge>)}
-              </div>
-
-              </Card>)}
+            </Card>)}
         </div>
 
         {filteredProjects.length === 0 && <div className="text-center py-12">
