@@ -8,7 +8,7 @@ const About = () => {
     items: ['React', 'Node.js', 'Python', 'Rust', 'Docker', 'Machine Learning']
   }, {
     category: 'Art & Design',
-    items: ['Digital Art', 'Generative Art', 'UI/UX', 'Interactive Installations', 'Creative Coding']
+    items: ['film', 'fashion design', 'poetry', 'visual arts']
   }];
   return <section className="py-20 px-6" id="about">
       <div className="max-w-6xl mx-auto">
