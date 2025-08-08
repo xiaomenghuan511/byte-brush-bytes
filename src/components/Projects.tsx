@@ -58,6 +58,7 @@ const Projects = () => {
     description: 'Intelligent coding companion that provides real-time suggestions and automated refactoring using machine learning.',
     category: 'software',
     tags: ['Python', 'LLMs', 'VSCode Extension', 'NLP'],
+    image: '/lovable-uploads/d9aadfa4-40ff-427a-a1f6-171b9fd38a44.png',
     status: 'in-progress'
   }, {
     id: '8',
