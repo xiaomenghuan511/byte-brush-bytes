@@ -26,18 +26,45 @@ const About = () => {
             </div>
             
             <div className="prose prose-lg text-foreground">
-              <p className="text-lg leading-relaxed mb-6">
-                I'm a multidisciplinary creator who bridges the gap between technology and art. 
-                My passion lies in building innovative solutions that push the boundaries of what's possible.
-              </p>
-              
-              <p className="text-lg leading-relaxed mb-6">
-                From crafting elegant code to designing interactive hardware experiences, 
-                I believe in the power of technology to create meaningful connections and 
-                inspire wonder in the world around us.
-              </p>
+              {/* Timeline */}
+              <div className="space-y-8">
+                <div className="flex gap-4">
+                  <div className="flex flex-col items-center">
+                    <div className="w-3 h-3 bg-primary rounded-full"></div>
+                    <div className="w-px h-16 bg-border"></div>
+                  </div>
+                  <div className="flex-1">
+                    <div className="text-sm text-muted-foreground mb-1">2021 - Present</div>
+                    <h4 className="font-cyber font-bold text-lg text-primary mb-2">Lead Product Manager @ Meta Reality Labs - Spatial AI</h4>
+                    <p className="text-foreground/80">Leading spatial computing initiatives and AR product development at Meta's Reality Labs division.</p>
+                  </div>
+                </div>
 
-              <div className="font-mono text-sm text-secondary">
+                <div className="flex gap-4">
+                  <div className="flex flex-col items-center">
+                    <div className="w-3 h-3 bg-primary rounded-full"></div>
+                    <div className="w-px h-16 bg-border"></div>
+                  </div>
+                  <div className="flex-1">
+                    <div className="text-sm text-muted-foreground mb-1">2019 - 2021</div>
+                    <h4 className="font-cyber font-bold text-lg text-primary mb-2">Head of Product @ Xreal</h4>
+                    <p className="text-foreground/80">Spearheaded product strategy and development for next-generation AR glasses and mixed reality experiences.</p>
+                  </div>
+                </div>
+
+                <div className="flex gap-4">
+                  <div className="flex flex-col items-center">
+                    <div className="w-3 h-3 bg-primary rounded-full"></div>
+                  </div>
+                  <div className="flex-1">
+                    <div className="text-sm text-muted-foreground mb-1">2016 - 2018</div>
+                    <h4 className="font-cyber font-bold text-lg text-primary mb-2">Co-founder @ Hippo</h4>
+                    <p className="text-foreground/80">Co-founded and built innovative solutions bridging hardware and software in the emerging tech space.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="font-mono text-sm text-secondary mt-8">
                 <span className="text-primary">&#8250;</span> Status: Creating the future, one project at a time
               </div>
             </div>
