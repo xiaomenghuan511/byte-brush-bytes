@@ -57,6 +57,20 @@ const Projects = () => {
     category: 'art',
     tags: ['Processing', 'Glitch Art', 'Digital Media', 'Algorithms'],
     status: 'concept'
+  }, {
+    id: '7',
+    title: 'AI-Powered Code Assistant',
+    description: 'Intelligent coding companion that provides real-time suggestions and automated refactoring using machine learning.',
+    category: 'software',
+    tags: ['Python', 'LLMs', 'VSCode Extension', 'NLP'],
+    status: 'in-progress'
+  }, {
+    id: '8',
+    title: 'Distributed Computing Framework',
+    description: 'High-performance distributed system for processing large-scale data workloads across multiple nodes.',
+    category: 'software',
+    tags: ['Go', 'Kubernetes', 'Microservices', 'Docker'],
+    status: 'completed'
   }];
   const filteredProjects = activeCategory === 'all' ? projects : projects.filter(project => project.category === activeCategory);
   const getStatusColor = (status: Project['status']) => {
