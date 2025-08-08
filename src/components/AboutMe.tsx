@@ -10,9 +10,7 @@ const AboutMe = () => {
             
             <div className="space-y-4 text-foreground/90">
               <p className="text-lg leading-relaxed">
-                I'm passionate about creating the future of spatial computing and augmented reality. 
-                With hands-on experience in both hardware and software development, I bridge the gap 
-                between cutting-edge technology and real-world applications.
+                I want to define the ultimate interface between AI and humans. I want to ensure AI aligns with individuals' personal goals, empathizes with their real-life experiences, and helps people become their best selves.
               </p>
               
               <p className="leading-relaxed">
