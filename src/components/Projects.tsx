@@ -24,7 +24,7 @@ const Projects = () => {
     status: 'completed'
   }, {
     id: '2',
-    title: 'IoT Garden Monitor',
+    title: 'Xreal Light Glasses',
     description: 'Smart gardening system with sensors, automated watering, and mobile app control.',
     category: 'hardware',
     tags: ['Arduino', 'ESP32', 'React Native', 'MQTT'],
@@ -45,7 +45,7 @@ const Projects = () => {
     status: 'completed'
   }, {
     id: '5',
-    title: 'LED Matrix Display',
+    title: 'Xreal Controller',
     description: 'Large-scale programmable LED installation for interactive art exhibitions.',
     category: 'hardware',
     tags: ['Arduino', 'FastLED', 'PCB Design', 'C++'],
@@ -71,6 +71,13 @@ const Projects = () => {
     category: 'software',
     tags: ['Go', 'Kubernetes', 'Microservices', 'Docker'],
     status: 'completed'
+  }, {
+    id: '9',
+    title: 'Xreal Computing Unit',
+    description: 'High-performance computing module designed for AR applications with optimized processing power.',
+    category: 'hardware',
+    tags: ['ARM', 'Custom Silicon', 'Thermal Design', 'PCB'],
+    status: 'in-progress'
   }];
   const filteredProjects = activeCategory === 'all' ? projects : projects.filter(project => project.category === activeCategory);
   const getStatusColor = (status: Project['status']) => {
