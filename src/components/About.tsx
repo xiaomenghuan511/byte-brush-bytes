@@ -72,7 +72,7 @@ const About = () => {
 
           <div className="space-y-6">
             {skills.map((skillGroup, index) => <Card key={skillGroup.category} className="p-6 card-glow bg-card/50 backdrop-blur-sm hover:card-glow transition-all duration-300">
-                <div className="w-full h-32 bg-muted/20 border border-border rounded-md mb-4 flex items-center justify-center overflow-hidden">
+                <div className="w-full h-24 bg-muted/20 border border-border rounded-md mb-4 flex items-center justify-center overflow-hidden">
                   {skillGroup.category === 'Software' ? (
                     <img src="/lovable-uploads/c8e82494-32eb-4d4a-ae2d-6cad9ef5bb98.png" alt="Software" className="w-full h-full object-cover" />
                   ) : (
