@@ -1,10 +1,6 @@
 const Nirva = () => {
   const appFeatures = [
     {
-      title: "Privacy-First All-Day Sensing Fashion Accessory",
-      description: "Captures real-life context and understands you throughout the day. Makes you look better, feel better, live better."
-    },
-    {
       title: "Life Journals and Understanding",
       description: "Automatically writes stories for you with guided reflection, sharing every big and small moment with you."
     },
