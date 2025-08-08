@@ -36,7 +36,7 @@ const Navigation = () => {
       <div className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex justify-between items-center">
           <div className="font-cyber font-bold text-xl text-primary text-glow">
-            {'<hacker/>'}
+            {'<Wei/>'}
           </div>
 
           <div className="hidden md:flex items-center space-x-1">
