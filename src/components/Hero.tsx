@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button';
 
 const Hero = () => {
   const [displayedText, setDisplayedText] = useState('');
-  const fullText = '> Cool Hacker._';
+  const fullText = 'Hi, I am Wei.';
   const subtitle = 'Building the future through hardware, software & art';
 
   useEffect(() => {
