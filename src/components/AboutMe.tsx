@@ -24,11 +24,11 @@ const AboutMe = () => {
           </div>
 
           <div className="relative">
-            <div className="relative overflow-hidden rounded-lg border border-border bg-card p-4">
+            <div className="relative overflow-hidden rounded-lg">
               <img 
                 src="/lovable-uploads/b7e4ad18-f35f-4949-9f1c-2d83b3ce9c60.png" 
                 alt="Me with AR/VR products and devices" 
-                className="w-full h-auto object-cover rounded-md"
+                className="w-full h-auto object-cover rounded-md scale-110"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background/20 to-transparent pointer-events-none"></div>
             </div>
