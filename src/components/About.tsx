@@ -45,6 +45,9 @@ const About = () => {
 
           <div className="space-y-6">
             {skills.map((skillGroup, index) => <Card key={skillGroup.category} className="p-6 card-glow bg-card/50 backdrop-blur-sm hover:card-glow transition-all duration-300">
+                <div className="w-full h-32 bg-muted/20 border border-border rounded-md mb-4 flex items-center justify-center">
+                  <span className="text-muted-foreground font-mono text-sm">Image Placeholder</span>
+                </div>
                 <h3 className="font-cyber font-bold text-xl mb-4 text-primary">
                   {skillGroup.category}
                 </h3>
