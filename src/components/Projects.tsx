@@ -94,7 +94,7 @@ const Projects = () => {
         {/* Category Filter */}
         <div className="flex flex-wrap justify-center gap-4 mb-12">
           {(['all', 'software', 'hardware', 'art'] as ProjectCategory[]).map(category => <Button key={category} variant={activeCategory === category ? "default" : "outline"} onClick={() => setActiveCategory(category)} className={`font-mono ${activeCategory === category ? 'bg-primary text-primary-foreground border-glow' : 'bg-card border-primary text-primary hover:bg-primary hover:text-primary-foreground border-glow'}`}>
-              ./{category}
+              {category}
             </Button>)}
         </div>
 
