@@ -47,7 +47,7 @@ const Navigation = () => {
                 onClick={() => scrollToSection(item.href)}
                 className="font-mono text-sm hover:text-primary hover:bg-card/50 transition-all"
               >
-                ./{item.label}
+                {item.label}
               </Button>
             ))}
           </div>
