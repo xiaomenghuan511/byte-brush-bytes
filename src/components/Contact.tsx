@@ -52,7 +52,7 @@ const Contact = () => {
             <span className="text-primary">user@matrix</span>
             <span>:</span>
             <span className="text-secondary">~/portfolio</span>
-            <span>$ echo "Let's work together to augment human."</span>
+            <span>"Let's work together to augment human."</span>
           </p>
         </div>
       </div>
