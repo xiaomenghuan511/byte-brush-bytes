@@ -1,11 +1,9 @@
 import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
-
 const Hero = () => {
   const [displayedText, setDisplayedText] = useState('');
   const fullText = 'Hi, I am Wei.';
   const subtitle = 'Building the future through wearables, AI, and emotional technology';
-
   useEffect(() => {
     let i = 0;
     const timer = setInterval(() => {
@@ -15,12 +13,9 @@ const Hero = () => {
         clearInterval(timer);
       }
     }, 100);
-
     return () => clearInterval(timer);
   }, []);
-
-  return (
-    <section className="min-h-screen flex items-center justify-center relative scan-line">
+  return <section className="min-h-screen flex items-center justify-center relative scan-line">
       <div className="absolute inset-0 matrix-bg"></div>
       
       <div className="text-center z-10 max-w-4xl mx-auto px-6">
@@ -35,18 +30,10 @@ const Hero = () => {
         </div>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-          <Button 
-            variant="outline" 
-            size="lg"
-            className="bg-card border-primary text-primary hover:bg-primary hover:text-primary-foreground border-glow font-mono"
-          >
+          <Button variant="outline" size="lg" className="bg-card border-primary text-primary hover:bg-primary hover:text-primary-foreground border-glow font-mono">
             projects
           </Button>
-          <Button 
-            variant="outline" 
-            size="lg"
-            className="bg-card border-secondary text-secondary hover:bg-secondary hover:text-secondary-foreground border-glow font-mono"
-          >
+          <Button variant="outline" size="lg" className="bg-card border-secondary text-secondary hover:bg-secondary hover:text-secondary-foreground border-glow font-mono">
             arts
           </Button>
         </div>
@@ -59,30 +46,12 @@ const Hero = () => {
 
       {/* Terminal prompt at bottom */}
       <div className="absolute bottom-8 left-8 font-mono text-sm text-muted-foreground">
-        <span className="text-primary">user@matrix</span>
-        <span>:</span>
-        <span className="text-secondary">~</span>
-        <span>$ </span>
-        <span className="animate-pulse">_</span>
+        
+        
+        
+        
+        
       </div>
-      
-      {/* New section: Meta + YC Alumni */}
-      <div className="absolute bottom-20 right-8 max-w-xs">
-        <div className="bg-card/20 backdrop-blur-sm border border-primary/30 rounded-lg p-4 border-glow">
-          <div className="mb-3">
-            <img 
-              src="/lovable-uploads/629bfa34-3b07-4823-8617-560095c890aa.png" 
-              alt="Wei with AR/VR products"
-              className="w-full h-32 object-cover rounded border border-secondary/20"
-            />
-          </div>
-          <p className="font-mono text-xs text-primary text-glow">
-            Meta + YC Alumni. Me & My Products {'>>'}
-          </p>
-        </div>
-      </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
