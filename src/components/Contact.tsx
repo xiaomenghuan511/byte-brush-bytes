@@ -25,9 +25,24 @@ const Contact = () => {
             contact me
           </h2>
           <div className="w-20 h-px bg-gradient-cyber mx-auto mb-8"></div>
-          <p className="text-muted-foreground font-mono">
+          <p className="text-muted-foreground font-mono mb-6">
             <span className="text-primary">&#8250;</span> Establishing secure connection...
           </p>
+          
+          <div className="space-y-2 font-mono text-foreground">
+            <div className="flex items-center justify-center gap-2">
+              <span className="text-primary">email:</span>
+              <a href="mailto:weilyupku@gmail.com" className="text-secondary hover:text-glow transition-colors">
+                weilyupku@gmail.com
+              </a>
+            </div>
+            <div className="flex items-center justify-center gap-2">
+              <span className="text-primary">phone:</span>
+              <a href="tel:3472005684" className="text-secondary hover:text-glow transition-colors">
+                347-200-5684
+              </a>
+            </div>
+          </div>
         </div>
 
         
