@@ -16,7 +16,7 @@ const Projects = () => {
   const [activeCategory, setActiveCategory] = useState<ProjectCategory>('all');
   const projects: Project[] = [{
     id: '1',
-    title: 'Neural Network Visualizer',
+    title: 'Meta Quest Mixed Reality Apps',
     description: 'Interactive web app for visualizing deep learning architectures with real-time training animations.',
     category: 'software',
     tags: ['React', 'D3.js', 'TensorFlow', 'WebGL'],
