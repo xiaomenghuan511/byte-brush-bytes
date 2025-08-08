@@ -14,7 +14,7 @@ const About = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-cyber font-bold mb-4 text-glow">
-             About Me
+             about me
           </h2>
           <div className="w-20 h-px bg-gradient-cyber mx-auto mb-8"></div>
         </div>
