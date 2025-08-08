@@ -5,7 +5,7 @@ const AboutMe = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h2 className="text-3xl md:text-4xl font-cyber font-bold text-glow mb-6">
-              Me & My Products
+              me & my products {'>>>'}
             </h2>
             
             <div className="space-y-4 text-foreground/90">
