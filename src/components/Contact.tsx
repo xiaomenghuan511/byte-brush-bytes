@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button';
 
 const Contact = () => {
   const contactMethods = [
-    { label: 'Email', value: 'hacker@example.com', command: 'mailto:hacker@example.com' },
+    { label: 'Email', value: 'weilyupku@gmail.com', command: 'mailto:weilyupku@gmail.com' },
     { label: 'GitHub', value: '@coolhacker', command: 'https://github.com/coolhacker' },
     { label: 'LinkedIn', value: '/in/coolhacker', command: 'https://linkedin.com/in/coolhacker' },
     { label: 'Twitter', value: '@hackercool', command: 'https://twitter.com/hackercool' }
@@ -51,7 +51,7 @@ const Contact = () => {
 
             <Button 
               className="mt-6 w-full bg-primary text-primary-foreground hover:bg-primary-glow font-mono border-glow"
-              onClick={() => window.open('mailto:hacker@example.com')}
+              onClick={() => window.open('mailto:weilyupku@gmail.com')}
             >
               $ send_message.sh
             </Button>
