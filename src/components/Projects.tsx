@@ -1,184 +1,103 @@
 import { Card } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
-import { useState } from 'react';
-
-type ProjectCategory = 'all' | 'software' | 'hardware' | 'art';
-
-interface Project {
-  id: string;
-  title: string;
-  description: string;
-  category: Exclude<ProjectCategory, 'all'>;
-  tags: string[];
-  image?: string;
-  status: 'completed' | 'in-progress' | 'concept';
-}
+import { ExternalLink, Github } from 'lucide-react';
 
 const Projects = () => {
-  const [activeCategory, setActiveCategory] = useState<ProjectCategory>('all');
-
-  const projects: Project[] = [
+  const projects = [
     {
       id: '1',
-      title: 'Neural Network Visualizer',
-      description: 'Interactive web app for visualizing deep learning architectures with real-time training animations.',
-      category: 'software',
-      tags: ['React', 'D3.js', 'TensorFlow', 'WebGL'],
-      status: 'completed'
+      title: 'AR Spatial Computing Platform',
+      description: 'Next-generation spatial computing platform for mixed reality experiences, focusing on natural hand tracking and spatial audio.',
+      tags: ['Computer Vision', 'Unity', 'C#', 'Mixed Reality'],
+      category: 'Product Development'
     },
     {
-      id: '2',
-      title: 'IoT Garden Monitor',
-      description: 'Smart gardening system with sensors, automated watering, and mobile app control.',
-      category: 'hardware',
-      tags: ['Arduino', 'ESP32', 'React Native', 'MQTT'],
-      status: 'in-progress'
+      id: '2', 
+      title: 'Emotional AI Wearable',
+      description: 'Wearable device that analyzes emotional states through biometric data and provides real-time feedback and recommendations.',
+      tags: ['IoT', 'Machine Learning', 'Biometrics', 'Flutter'],
+      category: 'Hardware + Software'
     },
     {
       id: '3',
-      title: 'Generative Music Machine',
-      description: 'AI-powered installation that creates ambient soundscapes based on environmental data.',
-      category: 'art',
-      tags: ['Python', 'Max/MSP', 'Machine Learning', 'Audio'],
-      status: 'completed'
+      title: 'Smart Glasses OS',
+      description: 'Custom operating system for smart glasses with voice control, gesture recognition, and contextual computing capabilities.',
+      tags: ['Embedded Systems', 'Linux', 'Voice AI', 'Computer Vision'],
+      category: 'Systems Engineering'
     },
     {
       id: '4',
-      title: 'Cyberpunk Dashboard',
-      description: 'Real-time system monitoring tool with a futuristic terminal interface.',
-      category: 'software',
-      tags: ['Rust', 'TUI', 'System Programming', 'WebAssembly'],
-      status: 'completed'
-    },
-    {
-      id: '5',
-      title: 'LED Matrix Display',
-      description: 'Large-scale programmable LED installation for interactive art exhibitions.',
-      category: 'hardware',
-      tags: ['Arduino', 'FastLED', 'PCB Design', 'C++'],
-      status: 'completed'
-    },
-    {
-      id: '6',
-      title: 'Digital Glitch Art',
-      description: 'Algorithmic art series exploring data corruption as aesthetic medium.',
-      category: 'art',
-      tags: ['Processing', 'Glitch Art', 'Digital Media', 'Algorithms'],
-      status: 'concept'
+      title: 'Neural Interface Framework',
+      description: 'Research framework for brain-computer interfaces with focus on non-invasive signal processing and machine learning.',
+      tags: ['Neuroscience', 'Signal Processing', 'Python', 'TensorFlow'],
+      category: 'Research & Development'
     }
   ];
 
-  const filteredProjects = activeCategory === 'all' 
-    ? projects 
-    : projects.filter(project => project.category === activeCategory);
-
-  const getStatusColor = (status: Project['status']) => {
-    switch (status) {
-      case 'completed': return 'text-primary';
-      case 'in-progress': return 'text-secondary';
-      case 'concept': return 'text-accent';
-      default: return 'text-muted-foreground';
-    }
-  };
-
-  const getStatusSymbol = (status: Project['status']) => {
-    switch (status) {
-      case 'completed': return '✓';
-      case 'in-progress': return '⟳';
-      case 'concept': return '◦';
-      default: return '?';
-    }
-  };
-
   return (
-    <section className="py-20 px-6" id="projects">
-      <div className="max-w-7xl mx-auto">
+    <section className="section-padding" id="projects">
+      <div className="container-width">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-cyber font-bold mb-4 text-glow">
-            <span className="text-secondary">$</span> ls projects/
+          <div className="section-number mb-4">03_FEATURED PROJECTS</div>
+          <h2 className="heading-medium mb-6">
+            Selected Work & Innovation
           </h2>
-          <div className="w-20 h-px bg-gradient-cyber mx-auto mb-8"></div>
+          <div className="section-divider mb-8"></div>
+          <p className="body-large max-w-2xl mx-auto">
+            A collection of projects spanning AR/VR development, wearable technology, 
+            and emotional AI systems.
+          </p>
         </div>
 
-        {/* Category Filter */}
-        <div className="flex flex-wrap justify-center gap-4 mb-12">
-          {(['all', 'software', 'hardware', 'art'] as ProjectCategory[]).map((category) => (
-            <Button
-              key={category}
-              variant={activeCategory === category ? "default" : "outline"}
-              onClick={() => setActiveCategory(category)}
-              className={`font-mono ${
-                activeCategory === category 
-                  ? 'bg-primary text-primary-foreground border-glow' 
-                  : 'bg-card border-primary text-primary hover:bg-primary hover:text-primary-foreground border-glow'
-              }`}
-            >
-              ./{category}
-            </Button>
-          ))}
-        </div>
-
-        {/* Projects Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {filteredProjects.map((project) => (
-            <Card 
-              key={project.id}
-              className="p-6 card-glow bg-card/50 backdrop-blur-sm hover:card-glow hover:scale-105 transition-all duration-300 group"
-            >
-              <div className="mb-4">
-                <div className="flex justify-between items-start mb-2">
-                  <h3 className="text-xl font-cyber font-bold text-foreground group-hover:text-glow transition-all">
-                    {project.title}
-                  </h3>
-                  <span className={`text-sm font-mono ${getStatusColor(project.status)}`}>
-                    {getStatusSymbol(project.status)} {project.status}
-                  </span>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {projects.map((project) => (
+            <Card key={project.id} className="professional-card p-8 group">
+              <div className="mb-6">
+                <div className="text-sm text-muted-foreground mb-2 font-mono uppercase tracking-wide">
+                  {project.category}
                 </div>
-                <p className="text-muted-foreground text-sm leading-relaxed">
+                <h3 className="heading-medium mb-4 group-hover:text-primary transition-colors">
+                  {project.title}
+                </h3>
+                <p className="professional-text mb-6 leading-relaxed">
                   {project.description}
                 </p>
               </div>
 
-              <div className="flex flex-wrap gap-2 mb-4">
+              <div className="flex flex-wrap gap-2 mb-6">
                 {project.tags.map((tag) => (
                   <Badge 
                     key={tag} 
                     variant="secondary"
-                    className="text-xs font-mono bg-muted/30 hover:bg-muted/50 transition-colors"
+                    className="text-xs bg-secondary/50 text-secondary-foreground border-0"
                   >
                     {tag}
                   </Badge>
                 ))}
               </div>
 
-              <div className="flex gap-2">
+              <div className="flex gap-3">
                 <Button 
                   size="sm" 
                   variant="outline"
-                  className="flex-1 font-mono bg-card border-secondary text-secondary hover:bg-secondary hover:text-secondary-foreground"
+                  className="flex items-center gap-2"
                 >
-                  view
+                  <ExternalLink className="w-4 h-4" />
+                  View Details
                 </Button>
                 <Button 
                   size="sm" 
                   variant="outline"
-                  className="flex-1 font-mono bg-card border-accent text-accent hover:bg-accent hover:text-accent-foreground"
+                  className="flex items-center gap-2"
                 >
-                  code
+                  <Github className="w-4 h-4" />
+                  Repository
                 </Button>
               </div>
             </Card>
           ))}
         </div>
-
-        {filteredProjects.length === 0 && (
-          <div className="text-center py-12">
-            <p className="text-muted-foreground font-mono">
-              <span className="text-destructive">Error:</span> No projects found in /{activeCategory}/
-            </p>
-          </div>
-        )}
       </div>
     </section>
   );

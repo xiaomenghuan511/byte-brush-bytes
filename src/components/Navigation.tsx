@@ -14,10 +14,10 @@ const Navigation = () => {
   }, []);
 
   const navItems = [
-    { label: 'home', href: '#home' },
-    { label: 'about', href: '#about' },
-    { label: 'projects', href: '#projects' },
-    { label: 'contact', href: '#contact' }
+    { label: 'Home', href: '#home' },
+    { label: 'About', href: '#about' },
+    { label: 'Projects', href: '#projects' },
+    { label: 'Portfolio', href: '#portfolio' }
   ];
 
   const scrollToSection = (href: string) => {
@@ -30,25 +30,24 @@ const Navigation = () => {
   return (
     <nav 
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled ? 'bg-background/80 backdrop-blur-md border-b border-border' : 'bg-transparent'
+        scrolled ? 'bg-background/95 backdrop-blur-sm border-b border-border' : 'bg-background/95 backdrop-blur-sm'
       }`}
     >
-      <div className="max-w-7xl mx-auto px-6 py-4">
+      <div className="max-w-6xl mx-auto px-6 py-6">
         <div className="flex justify-between items-center">
-          <div className="font-cyber font-bold text-xl text-primary text-glow">
-            {'<Wei/>'}
+          <div className="font-display font-normal text-2xl text-foreground">
+            Wei Lyu
           </div>
 
-          <div className="hidden md:flex items-center space-x-1">
+          <div className="hidden md:flex items-center space-x-8">
             {navItems.map((item) => (
-              <Button
+              <button
                 key={item.label}
-                variant="ghost"
                 onClick={() => scrollToSection(item.href)}
-                className="font-mono text-sm hover:text-primary hover:bg-card/50 transition-all"
+                className="font-sans text-base text-muted-foreground hover:text-foreground transition-colors"
               >
-                ./{item.label}
-              </Button>
+                {item.label}
+              </button>
             ))}
           </div>
 
@@ -56,9 +55,9 @@ const Navigation = () => {
           <Button 
             variant="ghost" 
             size="sm"
-            className="md:hidden font-mono text-primary"
+            className="md:hidden text-foreground"
           >
-            [ menu ]
+            Menu
           </Button>
         </div>
       </div>
