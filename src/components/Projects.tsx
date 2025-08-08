@@ -101,6 +101,9 @@ const Projects = () => {
         {/* Projects Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {filteredProjects.map(project => <Card key={project.id} className="p-6 card-glow bg-card/50 backdrop-blur-sm hover:card-glow hover:scale-105 transition-all duration-300 group">
+              <div className="w-full h-48 bg-muted/20 border border-border rounded-md mb-4 flex items-center justify-center overflow-hidden">
+                <span className="text-muted-foreground font-mono text-sm">Project Image</span>
+              </div>
               <div className="mb-4">
                 <div className="flex justify-between items-start mb-2">
                   <h3 className="text-xl font-cyber font-bold text-foreground group-hover:text-glow transition-all">
