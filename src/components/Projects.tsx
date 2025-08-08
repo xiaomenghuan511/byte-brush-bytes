@@ -24,7 +24,7 @@ const Projects = () => {
     status: 'completed'
   }, {
     id: '2',
-    title: 'Xreal Light Glasses',
+    title: 'Xreal Light Glasses, Controller, Computing Unit',
     description: 'Smart gardening system with sensors, automated watering, and mobile app control.',
     category: 'hardware',
     tags: ['Arduino', 'ESP32', 'React Native', 'MQTT'],
@@ -44,14 +44,6 @@ const Projects = () => {
     category: 'software',
     tags: ['Rust', 'TUI', 'System Programming', 'WebAssembly'],
     image: '/lovable-uploads/bb049d97-fb52-45d7-bbe6-121bb4d16001.png',
-    status: 'completed'
-  }, {
-    id: '5',
-    title: 'Xreal Controller',
-    description: 'Large-scale programmable LED installation for interactive art exhibitions.',
-    category: 'hardware',
-    tags: ['Arduino', 'FastLED', 'PCB Design', 'C++'],
-    image: '/lovable-uploads/02c6eeb3-50ef-4910-94c2-d6721db0fb3d.png',
     status: 'completed'
   }, {
     id: '6',
@@ -74,13 +66,6 @@ const Projects = () => {
     category: 'software',
     tags: ['Go', 'Kubernetes', 'Microservices', 'Docker'],
     status: 'completed'
-  }, {
-    id: '9',
-    title: 'Xreal Computing Unit',
-    description: 'High-performance computing module designed for AR applications with optimized processing power.',
-    category: 'hardware',
-    tags: ['ARM', 'Custom Silicon', 'Thermal Design', 'PCB'],
-    status: 'in-progress'
   }, {
     id: '10',
     title: 'short films',
