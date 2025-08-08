@@ -40,7 +40,7 @@ const Hero = () => {
             size="lg"
             className="bg-card border-primary text-primary hover:bg-primary hover:text-primary-foreground border-glow font-mono"
           >
-            $ ./explore_projects.sh
+            projects
           </Button>
           <Button 
             variant="outline" 
