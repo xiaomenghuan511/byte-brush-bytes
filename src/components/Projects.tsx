@@ -28,7 +28,7 @@ const Projects = () => {
     description: 'Smart gardening system with sensors, automated watering, and mobile app control.',
     category: 'hardware',
     tags: ['Arduino', 'ESP32', 'React Native', 'MQTT'],
-    image: '/lovable-uploads/dbeba7d3-214a-40c1-8151-0710a1f1b502.png',
+    image: '/lovable-uploads/02c6eeb3-50ef-4910-94c2-d6721db0fb3d.png',
     status: 'in-progress'
   }, {
     id: '3',
