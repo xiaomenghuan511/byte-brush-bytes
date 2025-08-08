@@ -13,9 +13,9 @@ const AboutMe = () => {
                 I aim to define the ultimate interface between AI and humans—AI that aligns with personal goals, empathizes with real-life experiences, and helps people become their best selves.
               </p>
               
-              <p className="leading-relaxed">
-                My life goal is to achieve enlightenment and reduce human suffering.
-              </p>
+              <blockquote className="italic text-muted-foreground border-l-4 border-primary pl-4 leading-relaxed">
+                "My life goal is to achieve enlightenment and reduce human suffering."
+              </blockquote>
               
               <div className="font-mono text-sm text-secondary mt-6">
                 <span className="text-primary">{'>'}</span> Focus: Wearable, AI, XR
