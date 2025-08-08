@@ -69,6 +69,13 @@ const Projects = () => {
     image: '/lovable-uploads/276bf3be-a4d7-43fa-a607-48114688f4bd.png',
     status: 'completed'
   }, {
+    id: '9',
+    title: 'Hippo AR',
+    description: 'AR location-based social App, let users create and share AR contents in 3D space.',
+    category: 'software',
+    tags: ['AR', 'Unity', 'React Native', 'Geolocation'],
+    status: 'completed'
+  }, {
     id: '10',
     title: 'short films',
     description: 'Creative storytelling through visual narratives exploring human emotions and digital experiences.',
