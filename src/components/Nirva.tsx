@@ -43,7 +43,7 @@ const Nirva = () => {
           <div className="relative">
             <div className="relative overflow-hidden rounded-lg">
               <img 
-                src="/lovable-uploads/0578b149-cc2c-4562-a31c-d862246c5d6c.png" 
+                src="/lovable-uploads/d2995631-a794-4b9e-a0dd-212ecde82ae0.png" 
                 alt="Nirva - AI Wearable Companion for Mental Wellbeing" 
                 className="w-full h-auto object-cover rounded-md"
               />
