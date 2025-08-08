@@ -50,14 +50,14 @@ const NirvaApp = () => {
           </div>
 
           {/* App Screenshot */}
-          <div className="flex justify-center lg:justify-end">
-            <div className="relative max-w-sm">
+          <div className="relative">
+            <div className="relative overflow-hidden rounded-lg">
               <img 
                 src="/lovable-uploads/3957ad14-82eb-45bd-b679-f2668b5a425e.png" 
                 alt="Nirva App Interface - Heart-to-heart conversations and Life Journals" 
-                className="w-full h-auto object-cover rounded-3xl shadow-2xl"
+                className="w-full h-auto object-cover rounded-md"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-background/5 to-transparent pointer-events-none rounded-3xl"></div>
+              <div className="absolute inset-0 bg-gradient-to-t from-background/10 to-transparent pointer-events-none"></div>
             </div>
           </div>
         </div>
