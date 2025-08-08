@@ -14,9 +14,7 @@ const AboutMe = () => {
               </p>
               
               <p className="leading-relaxed">
-                My work spans from AR glasses and mixed reality headsets to the software ecosystems 
-                that power them. I believe in building products that seamlessly blend digital and 
-                physical worlds, creating experiences that feel natural and intuitive.
+                My life goal is to achieve enlightenment and reduce human suffering.
               </p>
               
               <div className="font-mono text-sm text-secondary mt-6">
