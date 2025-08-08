@@ -38,7 +38,7 @@ const Projects = () => {
     status: 'completed'
   }, {
     id: '4',
-    title: 'Cyberpunk Dashboard',
+    title: 'Xreal SDK',
     description: 'Real-time system monitoring tool with a futuristic terminal interface.',
     category: 'software',
     tags: ['Rust', 'TUI', 'System Programming', 'WebAssembly'],
@@ -59,14 +59,14 @@ const Projects = () => {
     status: 'concept'
   }, {
     id: '7',
-    title: 'AI-Powered Code Assistant',
+    title: 'Nebula OS on Xreal',
     description: 'Intelligent coding companion that provides real-time suggestions and automated refactoring using machine learning.',
     category: 'software',
     tags: ['Python', 'LLMs', 'VSCode Extension', 'NLP'],
     status: 'in-progress'
   }, {
     id: '8',
-    title: 'Distributed Computing Framework',
+    title: 'Spatial OS on Meta Quest',
     description: 'High-performance distributed system for processing large-scale data workloads across multiple nodes.',
     category: 'software',
     tags: ['Go', 'Kubernetes', 'Microservices', 'Docker'],
