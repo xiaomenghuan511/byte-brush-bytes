@@ -47,7 +47,7 @@ const Hero = () => {
             size="lg"
             className="bg-card border-secondary text-secondary hover:bg-secondary hover:text-secondary-foreground border-glow font-mono"
           >
-            $ cat contact.txt
+            arts
           </Button>
         </div>
 
