@@ -74,6 +74,7 @@ const Projects = () => {
     description: 'AR location-based social App, let users create and share AR contents in 3D space.',
     category: 'software',
     tags: ['AR', 'Unity', 'React Native', 'Geolocation'],
+    image: '/lovable-uploads/68bee666-3052-4750-90bc-b1f4a74a8d35.png',
     status: 'completed'
   }, {
     id: '10',
