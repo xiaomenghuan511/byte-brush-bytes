@@ -21,7 +21,7 @@ const Nirva = () => {
               </h3>
               
               <h4 className="text-xl font-cyber text-foreground/90 mb-4">
-                AI Wearable Companion for Mental Wellbeing
+                Fashion Accessory for Mental Wellbeing
               </h4>
               
               <p className="text-lg text-foreground/80 leading-relaxed">
