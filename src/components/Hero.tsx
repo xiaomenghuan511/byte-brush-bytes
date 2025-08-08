@@ -65,6 +65,22 @@ const Hero = () => {
         <span>$ </span>
         <span className="animate-pulse">_</span>
       </div>
+      
+      {/* New section: Meta + YC Alumni */}
+      <div className="absolute bottom-20 right-8 max-w-xs">
+        <div className="bg-card/20 backdrop-blur-sm border border-primary/30 rounded-lg p-4 border-glow">
+          <div className="mb-3">
+            <img 
+              src="/lovable-uploads/629bfa34-3b07-4823-8617-560095c890aa.png" 
+              alt="Wei with AR/VR products"
+              className="w-full h-32 object-cover rounded border border-secondary/20"
+            />
+          </div>
+          <p className="font-mono text-xs text-primary text-glow">
+            Meta + YC Alumni. Me & My Products {'>>'}
+          </p>
+        </div>
+      </div>
     </section>
   );
 };
