@@ -124,9 +124,6 @@ const Projects = () => {
                   <h3 className="text-xl font-cyber font-bold text-foreground group-hover:text-glow transition-all">
                     {project.title}
                   </h3>
-                  <span className={`text-sm font-mono ${getStatusColor(project.status)}`}>
-                    {getStatusSymbol(project.status)} {project.status}
-                  </span>
                 </div>
                 <p className="text-muted-foreground text-sm leading-relaxed">
                   {project.description}
