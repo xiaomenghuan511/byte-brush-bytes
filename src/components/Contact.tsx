@@ -52,7 +52,7 @@ const Contact = () => {
             <span className="text-primary">user@matrix</span>
             <span>:</span>
             <span className="text-secondary">~/portfolio</span>
-            <span>$ echo "Let's work together to augment human."</span>
+            <span>$ echo "I aim to define the ultimate interface between AI and humans—AI that aligns with personal goals, empathizes with real-life experiences, and helps people become their best selves."</span>
           </p>
         </div>
       </div>
