@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 const Hero = () => {
   const [displayedText, setDisplayedText] = useState('');
   const fullText = 'Hi, I am Wei.';
-  const subtitle = 'Building the future through hardware, software & art';
+  const subtitle = 'Building the future through wearables, AI, and emotional technology';
 
   useEffect(() => {
     let i = 0;
