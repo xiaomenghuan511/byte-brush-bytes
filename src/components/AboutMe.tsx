@@ -18,7 +18,7 @@ const AboutMe = () => {
               </p>
               
               <div className="font-mono text-sm text-secondary mt-6">
-                <span className="text-primary">{'>'}</span> Focus: Spatial AI • AR/VR Hardware • Product Strategy
+                <span className="text-primary">{'>'}</span> Focus: Wearable, AI, XR
               </div>
             </div>
           </div>
