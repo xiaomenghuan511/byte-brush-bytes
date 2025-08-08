@@ -22,7 +22,7 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <div className="font-mono text-sm text-muted-foreground">
-              <span className="text-primary">&#8250;</span> Initializing bio.exe...
+              <span className="text-primary">&#8250;</span> My Experiences
             </div>
             
             <div className="prose prose-lg text-foreground">
