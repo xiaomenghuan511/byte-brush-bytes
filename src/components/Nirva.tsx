@@ -30,9 +30,7 @@ const Nirva = () => {
                 </p>
                 
                 <p className="text-foreground/70 leading-relaxed">
-                  Nirva represents the next evolution in personal AI—a wearable companion 
-                  that understands your mental state, provides personalized support, and 
-                  helps you navigate life's challenges with greater self-awareness and resilience.
+                  Mental wellness and therapy services often fail because they rely on users to explain themselves—but self-awareness is limited and biased, and context is hard to recall. Nirva captures real-life context through an all-day-wear multimodal-sensing fashion accessory, enabling effortless, personalized emotional support, companionship, and life coaching.
                 </p>
                 
                 <div className="font-mono text-sm text-secondary mt-6">
