@@ -26,7 +26,7 @@ const Contact = () => {
           </h2>
           <div className="w-20 h-px bg-gradient-cyber mx-auto mb-8"></div>
           <p className="text-muted-foreground font-mono mb-6">
-            <span className="text-primary">&#8250;</span> Establishing secure connection...
+            <span className="text-primary">&#8250;</span> feel free to reach out to me....
           </p>
           
           <div className="space-y-2 font-mono text-foreground">
