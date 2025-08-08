@@ -14,7 +14,7 @@ const About = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-cyber font-bold mb-4 text-glow">
-            <span className="text-primary">{'>'}</span> Experiences
+             whoami
           </h2>
           <div className="w-20 h-px bg-gradient-cyber mx-auto mb-8"></div>
         </div>
@@ -73,11 +73,7 @@ const About = () => {
           <div className="space-y-6">
             {skills.map((skillGroup, index) => <Card key={skillGroup.category} className="p-6 card-glow bg-card/50 backdrop-blur-sm hover:card-glow transition-all duration-300">
                 <div className="w-full h-56 bg-muted/20 border border-border rounded-md mb-4 flex items-center justify-center overflow-hidden">
-                  {skillGroup.category === 'Software' ? (
-                    <img src="/lovable-uploads/c8e82494-32eb-4d4a-ae2d-6cad9ef5bb98.png" alt="Software" className="w-full h-full object-cover" />
-                  ) : (
-                    <span className="text-muted-foreground font-mono text-sm">Image Placeholder</span>
-                  )}
+                  {skillGroup.category === 'Software' ? <img src="/lovable-uploads/c8e82494-32eb-4d4a-ae2d-6cad9ef5bb98.png" alt="Software" className="w-full h-full object-cover" /> : <span className="text-muted-foreground font-mono text-sm">Image Placeholder</span>}
                 </div>
                 <h3 className="font-cyber font-bold text-xl mb-4 text-primary">
                   {skillGroup.category}
