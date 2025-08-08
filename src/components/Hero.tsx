@@ -20,8 +20,27 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="min-h-screen flex items-center justify-center relative scan-line">
-      <div className="absolute inset-0 matrix-bg"></div>
+    <>
+      {/* Glasses Overlay */}
+      <div className="glasses-overlay">
+        <div className="glasses-frame">
+          <div className="glasses-temple-left"></div>
+          <div className="glasses-temple-right"></div>
+        </div>
+      </div>
+
+      {/* HUD Overlay */}
+      <div className="hud-overlay">
+        <div>STATUS: CONNECTED</div>
+        <div>MODE: VIRTUAL</div>
+        <div>TIME: {new Date().toLocaleTimeString()}</div>
+      </div>
+
+      {/* Scanning Line Effect */}
+      <div className="scan-line-overlay"></div>
+
+      <section className="min-h-screen flex items-center justify-center relative scan-line">
+        <div className="absolute inset-0 matrix-bg"></div>
       
       <div className="text-center z-10 max-w-4xl mx-auto px-6">
         <div className="mb-8">
@@ -65,7 +84,8 @@ const Hero = () => {
         <span>$ </span>
         <span className="animate-pulse">_</span>
       </div>
-    </section>
+      </section>
+    </>
   );
 };
 
