@@ -139,15 +139,7 @@ const Projects = () => {
                   </Badge>)}
               </div>
 
-              <div className="flex gap-2">
-                <Button size="sm" variant="outline" className="flex-1 font-mono bg-card border-secondary text-secondary hover:bg-secondary hover:text-secondary-foreground">
-                  view
-                </Button>
-                <Button size="sm" variant="outline" className="flex-1 font-mono bg-card border-accent text-accent hover:bg-accent hover:text-accent-foreground">
-                  code
-                </Button>
-              </div>
-            </Card>)}
+              </Card>)}
         </div>
 
         {filteredProjects.length === 0 && <div className="text-center py-12">
