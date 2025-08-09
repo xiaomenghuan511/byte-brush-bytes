@@ -20,7 +20,7 @@ const Projects = () => {
     description: 'Interactive web app for visualizing deep learning architectures with real-time training animations.',
     category: 'software',
     tags: ['React', 'D3.js', 'TensorFlow', 'WebGL'],
-    image: '/lovable-uploads/79911f12-3d0b-4919-bc0b-94005128ea4f.png',
+    image: '/lovable-uploads/81ff42d6-b5d4-47fc-af9d-27e3ad46b676.png',
     status: 'completed'
   }, {
     id: '2',
