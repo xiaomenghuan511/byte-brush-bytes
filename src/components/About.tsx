@@ -36,7 +36,7 @@ const About = () => {
                   <div className="flex-1">
                     <div className="text-sm text-muted-foreground mb-1">2021 - Present</div>
                     <h4 className="font-cyber font-bold text-lg text-primary mb-2">Lead Product Manager @ Meta Reality Labs - Spatial AI</h4>
-                    <p className="text-foreground/80">Meta recruited me from China to the U.S. to lead Spatial AI at Reality Labs, where I've supported a 50-engineer team to incubate and ship industry-first technologies used by millions.</p>
+                    <p className="text-foreground/80">Joined Meta Reality Labs to lead Spatial AI. Built Spatial/Contextual Understanding capabilities on XR devices from 0→1 — defined the product vision, secured roadmap, and coordinated a 50-engineer team to deliver it.</p>
                   </div>
                 </div>
 
