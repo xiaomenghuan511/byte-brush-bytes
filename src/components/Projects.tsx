@@ -41,7 +41,7 @@ const Projects = () => {
   }, {
     id: '4',
     title: 'Xreal SDK',
-    description: 'Real-time system monitoring tool with a futuristic terminal interface.',
+    description: 'High-level API bring powerful MR features to your XREAL glasses, enabling them to understand the real world. Features include spatial computing, optimized rendering, and intuitive interactions.',
     category: 'software',
     tags: ['Rust', 'TUI', 'System Programming', 'WebAssembly'],
     image: '/lovable-uploads/bb049d97-fb52-45d7-bbe6-121bb4d16001.png',
