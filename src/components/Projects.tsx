@@ -36,6 +36,7 @@ const Projects = () => {
     description: 'AI-powered installation that creates ambient soundscapes based on environmental data.',
     category: 'art',
     tags: ['Python', 'Max/MSP', 'Machine Learning', 'Audio'],
+    image: '/lovable-uploads/38909618-ae7f-4f78-8dc7-df602327be30.png',
     status: 'completed'
   }, {
     id: '4',
