@@ -25,7 +25,7 @@ const Projects = () => {
   }, {
     id: '2',
     title: 'Xreal Light Glasses, Controller, Computing Unit',
-    description: 'Smart gardening system with sensors, automated watering, and mobile app control.',
+    description: 'Stylish and lightweight mixed reality glasses with 6DoF tracking and full immersion. Like a portable 220-inch IMAX-style display. Plug in your phone and see all your apps in AR.',
     category: 'hardware',
     tags: ['Arduino', 'ESP32', 'React Native', 'MQTT'],
     image: '/lovable-uploads/02c6eeb3-50ef-4910-94c2-d6721db0fb3d.png',
