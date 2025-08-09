@@ -49,7 +49,7 @@ const Contact = () => {
 
         <div className="text-center mt-12">
           <p className="font-mono text-sm text-muted-foreground">
-            <span className="text-primary">user@matrix</span>
+            
             <span>:</span>
             
             <span>"Let's work together to augment human."</span>
