@@ -81,7 +81,7 @@ const Projects = () => {
   }, {
     id: '10',
     title: 'Short Films',
-    description: 'Creative storytelling through visual narratives exploring human emotions and digital experiences.',
+    description: 'Story-telling: Directed and produced 10+ short films.',
     category: 'art',
     tags: ['Cinematography', 'Editing', 'Sound Design', 'Storytelling'],
     image: '/lovable-uploads/48adcf45-716b-450c-a1f4-678759f3bf4e.png',
