@@ -13,7 +13,7 @@ const AboutMe = () => {
             
             <div className="space-y-4 text-foreground/90">
               <p className="text-lg leading-relaxed">
-                I aim to define the ultimate interface between AI and humans—AI that aligns with personal goals, empathizes with real-life experiences, and helps people become their best selves.
+                I aim to define the ultimate interface between AI and humans: AI aligns with personal goals, empathizes with real-life experiences, and helps people become their best selves.
               </p>
               
               <blockquote className="italic text-muted-foreground border-l-4 border-primary pl-4 leading-relaxed">
