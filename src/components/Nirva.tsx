@@ -73,7 +73,7 @@ const Nirva = () => {
                   {feature.title}
                 </h3>
                 <p className="text-foreground/70 leading-relaxed">
-                  {feature.description}
+                  Captures real-life context and understands your emotions throughout the day.
                 </p>
               </div>
             ))}
