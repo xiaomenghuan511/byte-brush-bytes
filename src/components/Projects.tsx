@@ -84,6 +84,7 @@ const Projects = () => {
     description: 'Creative storytelling through visual narratives exploring human emotions and digital experiences.',
     category: 'art',
     tags: ['Cinematography', 'Editing', 'Sound Design', 'Storytelling'],
+    image: '/lovable-uploads/48adcf45-716b-450c-a1f4-678759f3bf4e.png',
     status: 'completed'
   }];
   const filteredProjects = activeCategory === 'all' ? projects : projects.filter(project => project.category === activeCategory);
