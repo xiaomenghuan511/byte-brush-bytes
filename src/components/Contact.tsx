@@ -51,7 +51,7 @@ const Contact = () => {
           <p className="font-mono text-sm text-muted-foreground">
             <span className="text-primary">user@matrix</span>
             <span>:</span>
-            <span className="text-secondary">~/portfolio</span>
+            
             <span>"Let's work together to augment human."</span>
           </p>
         </div>
