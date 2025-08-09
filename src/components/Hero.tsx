@@ -1,6 +1,12 @@
 import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 const Hero = () => {
+  const scrollToSection = (href: string) => {
+    const element = document.querySelector(href);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
   const [displayedText, setDisplayedText] = useState('');
   const fullText = 'Hi, I am Wei.';
   const subtitle = 'Building the future through wearables, AI, and emotional technology';
@@ -30,10 +36,20 @@ const Hero = () => {
         </div>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-          <Button variant="outline" size="lg" className="bg-card border-primary text-primary hover:bg-primary hover:text-primary-foreground border-glow font-mono">
+          <Button 
+            variant="outline" 
+            size="lg" 
+            onClick={() => scrollToSection('#about')}
+            className="bg-card border-primary text-primary hover:bg-primary hover:text-primary-foreground border-glow font-mono"
+          >
             about me
           </Button>
-          <Button variant="outline" size="lg" className="bg-card border-secondary text-secondary hover:bg-secondary hover:text-secondary-foreground border-glow font-mono">
+          <Button 
+            variant="outline" 
+            size="lg" 
+            onClick={() => scrollToSection('#projects')}
+            className="bg-card border-secondary text-secondary hover:bg-secondary hover:text-secondary-foreground border-glow font-mono"
+          >
             projects
           </Button>
         </div>
