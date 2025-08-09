@@ -14,79 +14,86 @@ interface Project {
 }
 const Projects = () => {
   const [activeCategory, setActiveCategory] = useState<ProjectCategory>('all');
-  const projects: Project[] = [{
-    id: '1',
-    title: 'Meta Mixed Reality SDK',
-    description: 'Scene Understanding lowers friction for developers, letting them build MR experiences that are as believable and immersive as possible with real-time occlusion and collision effects.',
-    category: 'software',
-    tags: ['React', 'D3.js', 'TensorFlow', 'WebGL'],
-    image: '/lovable-uploads/81ff42d6-b5d4-47fc-af9d-27e3ad46b676.png',
-    status: 'completed'
-  }, {
-    id: '2',
-    title: 'Xreal Light Glasses, Controller, Computing Unit',
-    description: 'Stylish and lightweight mixed reality glasses with 6DoF tracking and full immersion. Like a portable 220-inch IMAX-style display. Plug in your phone and see all your apps in AR.',
-    category: 'hardware',
-    tags: ['Arduino', 'ESP32', 'React Native', 'MQTT'],
-    image: '/lovable-uploads/02c6eeb3-50ef-4910-94c2-d6721db0fb3d.png',
-    status: 'in-progress'
-  }, {
-    id: '3',
-    title: 'Fashion Design',
-    description: 'Fashion Design Certificate at Parsons. Exploring self expression through clothes and accessories.',
-    category: 'art',
-    tags: ['Python', 'Max/MSP', 'Machine Learning', 'Audio'],
-    image: '/lovable-uploads/38909618-ae7f-4f78-8dc7-df602327be30.png',
-    status: 'completed'
-  }, {
-    id: '4',
-    title: 'Xreal SDK',
-    description: 'High-level API bring powerful MR features to your XREAL glasses, enabling them to understand the real world. Features include spatial computing, optimized rendering, and intuitive interactions.',
-    category: 'software',
-    tags: ['Rust', 'TUI', 'System Programming', 'WebAssembly'],
-    image: '/lovable-uploads/bb049d97-fb52-45d7-bbe6-121bb4d16001.png',
-    status: 'completed'
-  }, {
-    id: '6',
-    title: 'Poetry',
-    description: 'Living a poetic life. Understanding the world through love and expanding my soul through creative expression.',
-    category: 'art',
-    tags: ['Processing', 'Glitch Art', 'Digital Media', 'Algorithms'],
-    image: '/lovable-uploads/dd2f23a0-2808-43f3-ad16-204d2333e639.png',
-    status: 'concept'
-  }, {
-    id: '7',
-    title: 'Nebula OS on Xreal',
-    description: 'Nebula OS is designed to provide an intuitive and immersive AR experience. Key features include Spatial Windows, a 3D Menu System, and Environment Adaptation.',
-    category: 'software',
-    tags: ['Python', 'LLMs', 'VSCode Extension', 'NLP'],
-    image: '/lovable-uploads/d9aadfa4-40ff-427a-a1f6-171b9fd38a44.png',
-    status: 'in-progress'
-  }, {
-    id: '8',
-    title: 'Spatial OS on Meta Quest',
-    description: 'Allows you to blend virtual elements with your real-world environment, effectively turning your home into a part of the game or experience. Games and experiences can turn your home into a spaceship, a battlefield against zombies, or even a place to care for a virtual pet.',
-    category: 'software',
-    tags: ['Go', 'Kubernetes', 'Microservices', 'Docker'],
-    image: '/lovable-uploads/276bf3be-a4d7-43fa-a607-48114688f4bd.png',
-    status: 'completed'
-  }, {
-    id: '9',
-    title: 'Hippo AR',
-    description: 'AR location-based social App, let users create and share AR contents in 3D space.',
-    category: 'software',
-    tags: ['AR', 'Unity', 'React Native', 'Geolocation'],
-    image: '/lovable-uploads/68bee666-3052-4750-90bc-b1f4a74a8d35.png',
-    status: 'completed'
-  }, {
-    id: '10',
-    title: 'Short Films',
-    description: 'Story-telling: Directed and produced 10+ short films.',
-    category: 'art',
-    tags: ['Cinematography', 'Editing', 'Sound Design', 'Storytelling'],
-    image: '/lovable-uploads/48adcf45-716b-450c-a1f4-678759f3bf4e.png',
-    status: 'completed'
-  }];
+  const projects: Project[] = [
+    // Hardware projects first
+    {
+      id: '2',
+      title: 'Xreal Light Glasses, Controller, Computing Unit',
+      description: 'Stylish and lightweight mixed reality glasses with 6DoF tracking and full immersion. Like a portable 220-inch IMAX-style display. Plug in your phone and see all your apps in AR.',
+      category: 'hardware',
+      tags: ['Arduino', 'ESP32', 'React Native', 'MQTT'],
+      image: '/lovable-uploads/02c6eeb3-50ef-4910-94c2-d6721db0fb3d.png',
+      status: 'in-progress'
+    },
+    // Software projects second
+    {
+      id: '1',
+      title: 'Meta Mixed Reality SDK',
+      description: 'Scene Understanding lowers friction for developers, letting them build MR experiences that are as believable and immersive as possible with real-time occlusion and collision effects.',
+      category: 'software',
+      tags: ['React', 'D3.js', 'TensorFlow', 'WebGL'],
+      image: '/lovable-uploads/81ff42d6-b5d4-47fc-af9d-27e3ad46b676.png',
+      status: 'completed'
+    }, {
+      id: '4',
+      title: 'Xreal SDK',
+      description: 'High-level API bring powerful MR features to your XREAL glasses, enabling them to understand the real world. Features include spatial computing, optimized rendering, and intuitive interactions.',
+      category: 'software',
+      tags: ['Rust', 'TUI', 'System Programming', 'WebAssembly'],
+      image: '/lovable-uploads/bb049d97-fb52-45d7-bbe6-121bb4d16001.png',
+      status: 'completed'
+    }, {
+      id: '7',
+      title: 'Nebula OS on Xreal',
+      description: 'Nebula OS is designed to provide an intuitive and immersive AR experience. Key features include Spatial Windows, a 3D Menu System, and Environment Adaptation.',
+      category: 'software',
+      tags: ['Python', 'LLMs', 'VSCode Extension', 'NLP'],
+      image: '/lovable-uploads/d9aadfa4-40ff-427a-a1f6-171b9fd38a44.png',
+      status: 'in-progress'
+    }, {
+      id: '8',
+      title: 'Spatial OS on Meta Quest',
+      description: 'Allows you to blend virtual elements with your real-world environment, effectively turning your home into a part of the game or experience. Games and experiences can turn your home into a spaceship, a battlefield against zombies, or even a place to care for a virtual pet.',
+      category: 'software',
+      tags: ['Go', 'Kubernetes', 'Microservices', 'Docker'],
+      image: '/lovable-uploads/276bf3be-a4d7-43fa-a607-48114688f4bd.png',
+      status: 'completed'
+    }, {
+      id: '9',
+      title: 'Hippo AR',
+      description: 'AR location-based social App, let users create and share AR contents in 3D space.',
+      category: 'software',
+      tags: ['AR', 'Unity', 'React Native', 'Geolocation'],
+      image: '/lovable-uploads/68bee666-3052-4750-90bc-b1f4a74a8d35.png',
+      status: 'completed'
+    },
+    // Art projects last
+    {
+      id: '3',
+      title: 'Fashion Design',
+      description: 'Fashion Design Certificate at Parsons. Exploring self expression through clothes and accessories.',
+      category: 'art',
+      tags: ['Python', 'Max/MSP', 'Machine Learning', 'Audio'],
+      image: '/lovable-uploads/38909618-ae7f-4f78-8dc7-df602327be30.png',
+      status: 'completed'
+    }, {
+      id: '6',
+      title: 'Poetry',
+      description: 'Living a poetic life. Understanding the world through love and expanding my soul through creative expression.',
+      category: 'art',
+      tags: ['Processing', 'Glitch Art', 'Digital Media', 'Algorithms'],
+      image: '/lovable-uploads/dd2f23a0-2808-43f3-ad16-204d2333e639.png',
+      status: 'concept'
+    }, {
+      id: '10',
+      title: 'Short Films',
+      description: 'Story-telling: Directed and produced 10+ short films.',
+      category: 'art',
+      tags: ['Cinematography', 'Editing', 'Sound Design', 'Storytelling'],
+      image: '/lovable-uploads/48adcf45-716b-450c-a1f4-678759f3bf4e.png',
+      status: 'completed'
+    }
+  ];
   const filteredProjects = activeCategory === 'all' ? projects : projects.filter(project => project.category === activeCategory);
   const getStatusColor = (status: Project['status']) => {
     switch (status) {
