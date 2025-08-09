@@ -40,9 +40,6 @@ const Nirva = () => {
                   Fashion Accessory for Mental Wellbeing
                 </h4>
                 
-                <p className="text-lg text-foreground/80 leading-relaxed">
-                  Empowering people to know, love, and become themselves.
-                </p>
                 
                 <p className="text-foreground/70 leading-relaxed">
                   Therapy often fails because people can't fully recall or explain their experiences; Nirva does it for you by auto-journaling your life, tracking your mood, and giving you 24/7 emotional support through a privacy-first, all-day sensing fashion accessory.
