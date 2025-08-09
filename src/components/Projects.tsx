@@ -57,7 +57,7 @@ const Projects = () => {
   }, {
     id: '7',
     title: 'Nebula OS on Xreal',
-    description: 'Intelligent coding companion that provides real-time suggestions and automated refactoring using machine learning.',
+    description: 'Nebula OS on Xreal is designed to provide an intuitive and immersive AR experience. Key features include Spatial Windows, a 3D Menu System, and Environment Adaptation.',
     category: 'software',
     tags: ['Python', 'LLMs', 'VSCode Extension', 'NLP'],
     image: '/lovable-uploads/d9aadfa4-40ff-427a-a1f6-171b9fd38a44.png',
