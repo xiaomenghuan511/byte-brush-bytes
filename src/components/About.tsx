@@ -59,7 +59,8 @@ const About = () => {
                   <div className="flex-1">
                     <div className="text-sm text-muted-foreground mb-1">2016 - 2018</div>
                     <h4 className="font-cyber font-bold text-lg text-primary mb-2">Co-founder @ Hippo</h4>
-                    <p className="text-foreground/80">I founded a Y Combinator-backed AR social platform that grew to ~1M users.</p>
+                    <p className="text-foreground/80">Founded a Y Combinator-backed AR social platform that grew to ~1M users.
+ </p>
                   </div>
                 </div>
               </div>
