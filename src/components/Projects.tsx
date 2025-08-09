@@ -18,7 +18,7 @@ const Projects = () => {
     // Hardware projects first
     {
       id: '2',
-      title: 'Xreal Light Glasses, Controller, Computing Unit',
+      title: 'XREAL Light Glasses, Controller, Computing Unit',
       description: 'Stylish and lightweight mixed reality glasses with 6DoF tracking and full immersion. Like a portable 220-inch IMAX-style display. Plug in your phone and see all your apps in AR.',
       category: 'hardware',
       tags: ['Arduino', 'ESP32', 'React Native', 'MQTT'],
@@ -36,7 +36,7 @@ const Projects = () => {
       status: 'completed'
     }, {
       id: '4',
-      title: 'Xreal SDK',
+      title: 'XREAL SDK',
       description: 'High-level API bring powerful MR features to your XREAL glasses, enabling them to understand the real world. Features include spatial computing, optimized rendering, and intuitive interactions.',
       category: 'software',
       tags: ['Rust', 'TUI', 'System Programming', 'WebAssembly'],
@@ -44,7 +44,7 @@ const Projects = () => {
       status: 'completed'
     }, {
       id: '7',
-      title: 'Nebula OS on Xreal',
+      title: 'Nebula OS on XREAL',
       description: 'Nebula OS is designed to provide an intuitive and immersive AR experience. Key features include Spatial Windows, a 3D Menu System, and Environment Adaptation.',
       category: 'software',
       tags: ['Python', 'LLMs', 'VSCode Extension', 'NLP'],
