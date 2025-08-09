@@ -4,9 +4,12 @@ const AboutMe = () => {
       <div className="max-w-6xl mx-auto">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
-            <h2 className="text-3xl md:text-4xl font-cyber font-bold text-glow mb-6">
+            <h2 className="text-3xl md:text-4xl font-cyber font-bold text-glow mb-2">
               me & my products {'>>>'}
             </h2>
+            <p className="text-lg text-muted-foreground mb-6">
+              Meta & Y Combinator Alumni
+            </p>
             
             <div className="space-y-4 text-foreground/90">
               <p className="text-lg leading-relaxed">
