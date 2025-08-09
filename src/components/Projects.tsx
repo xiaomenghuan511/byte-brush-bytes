@@ -17,7 +17,7 @@ const Projects = () => {
   const projects: Project[] = [{
     id: '1',
     title: 'Meta Mixed Reality SDK',
-    description: 'Interactive web app for visualizing deep learning architectures with real-time training animations.',
+    description: 'Scene Understanding lowers friction for developers, letting them build MR experiences that are as believable and immersive as possible with real-time occlusion and collision effects.',
     category: 'software',
     tags: ['React', 'D3.js', 'TensorFlow', 'WebGL'],
     image: '/lovable-uploads/81ff42d6-b5d4-47fc-af9d-27e3ad46b676.png',
