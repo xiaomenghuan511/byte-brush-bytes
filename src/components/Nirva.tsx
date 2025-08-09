@@ -1,7 +1,7 @@
 const Nirva = () => {
   const appFeatures = [
     {
-      title: "Life Logging and Journalling",
+      title: "Life Logging and Journaling",
       description: "Automatically writes stories for you with guided reflection, sharing every big and small moment with you."
     },
     {
