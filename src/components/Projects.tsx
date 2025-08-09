@@ -52,7 +52,7 @@ const Projects = () => {
     description: 'Algorithmic art series exploring data corruption as aesthetic medium.',
     category: 'art',
     tags: ['Processing', 'Glitch Art', 'Digital Media', 'Algorithms'],
-    image: '/lovable-uploads/b6924945-85c3-4e6f-bdac-17f25b773639.png',
+    image: '/lovable-uploads/dd2f23a0-2808-43f3-ad16-204d2333e639.png',
     status: 'concept'
   }, {
     id: '7',
