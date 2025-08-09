@@ -71,6 +71,21 @@ const About = () => {
             </div>
           </div>
 
+          <div className="space-y-6">
+            {skills.map((skillGroup, index) => <Card key={skillGroup.category} className="p-6 card-glow bg-card/50 backdrop-blur-sm hover:card-glow transition-all duration-300">
+                <div className="w-full h-56 bg-muted/20 border border-border rounded-md mb-4 flex items-center justify-center overflow-hidden">
+                  {skillGroup.category === 'Software' ? <img src="/lovable-uploads/144266fc-e854-4cfd-8b40-dc9a2d06a633.png" alt="Spatial Understanding and Computer Vision" className="w-full h-full object-cover" /> : skillGroup.category === 'Hardware' ? <img src="/lovable-uploads/056a681a-4003-43e1-bb5f-f6b4f69d4fd5.png" alt="Hardware AR Glasses" className="w-full h-full object-cover" /> : <img src="/lovable-uploads/6407359f-c0d2-4f8c-b9b4-43d4f6ba00f5.png" alt="Fashion Design and Creative Arts" className="w-full h-full object-cover" />}
+                </div>
+                <h3 className="font-cyber font-bold text-xl mb-4 text-primary">
+                  {skillGroup.category}
+                </h3>
+                <div className="flex flex-wrap gap-2">
+                  {skillGroup.items.map(skill => <span key={skill} className="px-3 py-1 text-sm bg-muted/30 border border-border rounded-md font-mono hover:border-primary transition-colors">
+                      {skill}
+                    </span>)}
+                </div>
+              </Card>)}
+          </div>
         </div>
       </div>
     </section>;
