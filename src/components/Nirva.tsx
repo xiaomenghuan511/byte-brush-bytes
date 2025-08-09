@@ -45,7 +45,7 @@ const Nirva = () => {
                 </p>
                 
                 <p className="text-foreground/70 leading-relaxed">
-                  Mental wellness and therapy services often fail because they rely on users to explain themselves—but self-awareness is limited and biased, and context is hard to recall. Nirva captures real-life context through an all-day-wear multimodal-sensing fashion accessory, enabling effortless, personalized emotional support, companionship, and life coaching.
+                  Therapy often fails because people can't fully recall or explain their experiences; Nirva does it for you by auto-journaling your life, tracking your mood, and giving you 24/7 emotional support through a privacy-first, all-day sensing fashion accessory.
                 </p>
                 
                 <div className="font-mono text-sm text-secondary mt-6">
