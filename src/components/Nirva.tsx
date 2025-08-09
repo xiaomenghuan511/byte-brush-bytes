@@ -28,7 +28,7 @@ const Nirva = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center cursor-pointer mb-16">
             <div className="space-y-6">
               <div className="font-mono text-sm text-muted-foreground">
-                <span className="text-primary">{'>'}</span> Now Building...
+                <span className="text-primary">{'>'}</span> Coming
               </div>
               
               <div className="space-y-4">
