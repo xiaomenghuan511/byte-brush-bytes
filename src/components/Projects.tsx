@@ -32,7 +32,7 @@ const Projects = () => {
     status: 'in-progress'
   }, {
     id: '3',
-    title: 'fashion design',
+    title: 'Fashion Design',
     description: 'AI-powered installation that creates ambient soundscapes based on environmental data.',
     category: 'art',
     tags: ['Python', 'Max/MSP', 'Machine Learning', 'Audio'],
