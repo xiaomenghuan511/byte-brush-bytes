@@ -80,7 +80,7 @@ const Projects = () => {
     status: 'completed'
   }, {
     id: '10',
-    title: 'short films',
+    title: 'Short Films',
     description: 'Creative storytelling through visual narratives exploring human emotions and digital experiences.',
     category: 'art',
     tags: ['Cinematography', 'Editing', 'Sound Design', 'Storytelling'],
