@@ -71,7 +71,7 @@ const Projects = () => {
     {
       id: '3',
       title: 'Fashion Design',
-      description: 'Fashion Design Certificate at Parsons. Exploring self expression through clothes and accessories.',
+      description: 'Fashion Design Certificate at Parsons.',
       category: 'art',
       tags: ['Python', 'Max/MSP', 'Machine Learning', 'Audio'],
       image: '/lovable-uploads/38909618-ae7f-4f78-8dc7-df602327be30.png',
