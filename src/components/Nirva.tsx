@@ -49,7 +49,7 @@ const Nirva = () => {
                 </p>
                 
                 <div className="font-mono text-sm text-secondary mt-6">
-                  <span className="text-primary">{'>'}</span> Status: software and hardware prototype + Stealth Mode
+                  <span className="text-primary">{'>'}</span> Status: Software and hardware prototype + Stealth Mode
                 </div>
               </div>
             </div>
