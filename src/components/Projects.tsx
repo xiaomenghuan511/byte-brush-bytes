@@ -65,7 +65,7 @@ const Projects = () => {
   }, {
     id: '8',
     title: 'Spatial OS on Meta Quest',
-    description: 'High-performance distributed system for processing large-scale data workloads across multiple nodes.',
+    description: 'Allows you to blend virtual elements with your real-world environment, effectively turning your home into a part of the game or experience. Games and experiences can turn your home into a spaceship, a battlefield against zombies, or even a place to care for a virtual pet.',
     category: 'software',
     tags: ['Go', 'Kubernetes', 'Microservices', 'Docker'],
     image: '/lovable-uploads/276bf3be-a4d7-43fa-a607-48114688f4bd.png',
