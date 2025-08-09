@@ -34,7 +34,7 @@ const Hero = () => {
             about me
           </Button>
           <Button variant="outline" size="lg" className="bg-card border-secondary text-secondary hover:bg-secondary hover:text-secondary-foreground border-glow font-mono">
-            arts
+            projects
           </Button>
         </div>
 
