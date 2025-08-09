@@ -47,7 +47,7 @@ const Projects = () => {
     status: 'completed'
   }, {
     id: '6',
-    title: 'poetry',
+    title: 'Poetry',
     description: 'Algorithmic art series exploring data corruption as aesthetic medium.',
     category: 'art',
     tags: ['Processing', 'Glitch Art', 'Digital Media', 'Algorithms'],
