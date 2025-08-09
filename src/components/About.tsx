@@ -48,7 +48,7 @@ const About = () => {
                   <div className="flex-1">
                     <div className="text-sm text-muted-foreground mb-1">2019 - 2021</div>
                     <h4 className="font-cyber font-bold text-lg text-primary mb-2">Head of Product @ Xreal</h4>
-                    <p className="text-foreground/80">I became Head of Product at XREAL, led the 0→1 development of full-stack AR glasses (hardware + software), shipped globally. Devices → 350K units sold, company → $10B valuation, community → 30K passionate followers on Reddit .</p>
+                    <p className="text-foreground/80">I became Head of Product at XREAL, led the 0→1 development of full-stack AR glasses (hardware + software), shipped globally. Devices → 350K units sold, company → $1B valuation, community → 30K passionate followers on Reddit. 4 years later, Meta decided to copy our product.</p>
                   </div>
                 </div>
 
