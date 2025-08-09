@@ -10,7 +10,7 @@ const Nirva = () => {
     },
     {
       title: "Research-backed Mental Toolkit",
-      description: "Multi-dimensional assessment model, developed with therapists and life coaches. Visualizes mental wellbeing patterns including mood, energy, stress, social interaction, and more."
+      description: "Utilizes proven psychological frameworks, developed with therapists and life coaches."
     }
   ];
 
