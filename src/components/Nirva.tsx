@@ -1,7 +1,7 @@
 const Nirva = () => {
   const appFeatures = [
     {
-      title: "Life Journals and Understanding",
+      title: "Life Logging and Journalling",
       description: "Automatically writes stories for you with guided reflection, sharing every big and small moment with you."
     },
     {
@@ -9,7 +9,7 @@ const Nirva = () => {
       description: "Guides your life with deep self-awareness and truly personalized insights. Knows you better than your mom, partner, or therapist and is there 24/7."
     },
     {
-      title: "Research-backed Mental Sensing",
+      title: "Research-backed Mental Toolkit",
       description: "Multi-dimensional assessment model, developed with therapists and life coaches. Visualizes mental wellbeing patterns including mood, energy, stress, social interaction, and more."
     }
   ];
