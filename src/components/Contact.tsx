@@ -3,8 +3,8 @@ import { Button } from '@/components/ui/button';
 const Contact = () => {
   const contactMethods = [{
     label: 'Email',
-    value: 'weilyupku@gmail.com',
-    command: 'mailto:weilyupku@gmail.com'
+    value: 'weilupku@hotmail.com',
+    command: 'mailto:weilupku@hotmail.com'
   }, {
     label: 'GitHub',
     value: '@coolhacker',
@@ -32,8 +32,8 @@ const Contact = () => {
           <div className="space-y-2 font-mono text-foreground">
             <div className="flex items-center justify-center gap-2">
               <span className="text-primary">email:</span>
-              <a href="mailto:weilyupku@gmail.com" className="text-secondary hover:text-glow transition-colors">
-                weilyupku@gmail.com
+              <a href="mailto:weilupku@hotmail.com" className="text-secondary hover:text-glow transition-colors">
+                weilupku@hotmail.com
               </a>
             </div>
             <div className="flex items-center justify-center gap-2">
