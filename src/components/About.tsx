@@ -33,7 +33,7 @@ const About = () => {
                   <div className="flex-1">
                     <div className="text-sm text-muted-foreground mb-1">2021 - Present</div>
                     <h4 className="font-cyber font-bold text-lg text-primary mb-2">Lead Product Manager @ Meta Reality Labs - Spatial AI</h4>
-                    <p className="text-foreground/80">Joined Meta Reality Labs to lead Spatial AI. Built Spatial and Contextual Understanding capabilities on XR devices from 0→1.</p>
+                    <p className="text-foreground/80">Joined Meta Reality Labs to lead Spatial AI. Built Spatial and Contextual Understanding capabilities on XR devices from 0→1 — defined the product vision, secured roadmap, and coordinated a 50-engineer team to deliver it.</p>
                   </div>
                 </div>
 
@@ -45,6 +45,7 @@ const About = () => {
                   <div className="flex-1">
                     <div className="text-sm text-muted-foreground mb-1">2019 - 2021</div>
                     <h4 className="font-cyber font-bold text-lg text-primary mb-2">Head of Product @ XREAL</h4>
+                    <p className="text-foreground/80">As Head of Product at XREAL, led the 0→1 development of full-stack AR glasses (hardware + software), shipped globally. Devices → 350K units sold, company → $1B valuation, community → 30K passionate followers on Reddit. 4 years later, Meta decided to copy our product.</p>
                   </div>
                 </div>
 
@@ -55,7 +56,8 @@ const About = () => {
                   <div className="flex-1">
                     <div className="text-sm text-muted-foreground mb-1">2016 - 2018</div>
                     <h4 className="font-cyber font-bold text-lg text-primary mb-2">Co-founder @ Hippo</h4>
-                    <p className="text-foreground/80">Founded a Y Combinator-backed AR social platform.</p>
+                    <p className="text-foreground/80">Founded a Y Combinator-backed AR social platform that grew to ~1M users.
+ </p>
                   </div>
                 </div>
               </div>
